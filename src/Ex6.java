@@ -26,7 +26,7 @@ public class Ex6 {
 
         int sumOfArr_le = 0;
         for (int i = 0; i < numberOfArr; i++) {
-            if (arr[i] % 2 != 0){
+            if (arr[i] > 0 && arr[i] % 2 != 0){
                 sumOfArr_le += arr[i];
             }
         }
